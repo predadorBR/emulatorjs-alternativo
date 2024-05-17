@@ -19837,7 +19837,7 @@ var EJS = function(_0x494315) {
                                 })['catch'](function() {});
                             }
                         }
-                    }('/svg/icons.svg', 'ejs-icons'),
+                    }('svg/icons.svg', 'ejs-icons'),
                     this['id'] = _0x29ec97(0x2710 * Math['random']()));
                 var _0x5a349b = null;
                 this['elements']['controls'] = null;

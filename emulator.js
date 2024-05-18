@@ -5383,7 +5383,7 @@ var EJS = function(_0x494315) {
                 'dynamic' === this['options']['mode'] && (this['options']['restOpacity'] = 0x0),
                 this['id'] = _0x3198be['id'],
                 _0x3198be['id'] += 0x1,
-                //this['buildEl']()['stylize'](),
+                this['buildEl']()['stylize'](),
                 this['instance'] = {
                     'el': this['ui']['el'],
                     'on': this['on']['bind'](this),
@@ -5653,8 +5653,8 @@ var EJS = function(_0x494315) {
             _0x3198be['prototype'] = new _0x202768(),
             _0x3198be['constructor'] = _0x3198be,
             _0x3198be['id'] = 0x0,
-         //   _0x3198be['prototype']['buildEl'] = function() {
-        //        return this['ui'] = {},
+            _0x3198be['prototype']['buildEl'] = function() {
+                return this['ui'] = {},
        //             this['options']['dataOnly'] ? this : (this['ui']['el'] = document['createElement']('div'),
        //                 this['ui']['back'] = document['createElement']('div'),
        //                 this['ui']['front'] = document['createElement']('div'),
@@ -5665,7 +5665,7 @@ var EJS = function(_0x494315) {
           //              this['ui']['el']['appendChild'](this['ui']['back']),
            //             this['ui']['el']['appendChild'](this['ui']['front']),
            //             this);
-           // },
+            },
             _0x3198be['prototype']['stylize'] = function() {
                 if (this['options']['dataOnly'])
                     return this;

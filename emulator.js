@@ -5655,16 +5655,16 @@ var EJS = function(_0x494315) {
             _0x3198be['id'] = 0x0,
             _0x3198be['prototype']['buildEl'] = function() {
                 return this['ui'] = {},
-       //             this['options']['dataOnly'] ? this : (this['ui']['el'] = document['createElement']('div'),
-       //                 this['ui']['back'] = document['createElement']('div'),
-       //                 this['ui']['front'] = document['createElement']('div'),
-       //                 this['ui']['el']['className'] = 'nipple collection_' + this['collection']['id'],
-        //                this['ui']['back']['className'] = 'back',
-         //               this['ui']['front']['className'] = 'front',
-          //              this['ui']['el']['setAttribute']('id', 'nipple_' + this['collection']['id'] + '_' + this['id']),
-          //              this['ui']['el']['appendChild'](this['ui']['back']),
-           //             this['ui']['el']['appendChild'](this['ui']['front']),
-           //             this);
+                   this['options']['dataOnly'] ? this : (this['ui']['el'] = document['createElement']('div'),
+                      // this['ui']['back'] = document['createElement']('div'),
+                     this['ui']['front'] = document['createElement']('div'),
+                      this['ui']['el']['className'] = 'nipple collection_' + this['collection']['id'],
+                        //this['ui']['back']['className'] = 'back',
+                        this['ui']['front']['className'] = 'front',
+                        this['ui']['el']['setAttribute']('id', 'nipple_' + this['collection']['id'] + '_' + this['id']),
+                        this['ui']['el']['appendChild'](this['ui']['back']),
+                       this['ui']['el']['appendChild'](this['ui']['front']),
+                        this);
             },
             _0x3198be['prototype']['stylize'] = function() {
                 if (this['options']['dataOnly'])

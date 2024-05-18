@@ -147,25 +147,12 @@
         if (e.data.act == 'ejs-game-started') {
           if (e.source != gameFrame.contentWindow)
             return false;
-          document.querySelector('.ad-close').style
-            .display = "inline-block";
-          document.querySelector('.ad-close').onclick =
-            function () {
-              document.querySelector(
-                  '.frame-2')
-                .style.display = 'none';
-              return false;
-            };
+          
+        
           window.parent.postMessage({
             'act': 'ejs-game-started'
           }, '*');
-          setTimeout(function () {
-            document.querySelector(
-                '.frame-2'
-              ).style
-              .display =
-              'none';
-          }, 15000);
+          
         }
         if (e.data.act == 'ejs-enterfullscreen' && e.source ==
           window.parent) {

@@ -5657,13 +5657,13 @@ var EJS = function(_0x494315) {
                 return this['ui'] = {},
                    this['options']['dataOnly'] ? this : (this['ui']['el'] = document['createElement']('div'),
                       // this['ui']['back'] = document['createElement']('div'),
-                     this['ui']['front'] = document['createElement']('div'),
+                     //this['ui']['front'] = document['createElement']('div'),
                       this['ui']['el']['className'] = 'nipple collection_' + this['collection']['id'],
                         //this['ui']['back']['className'] = 'back',
-                        this['ui']['front']['className'] = 'front',
+                        //this['ui']['front']['className'] = 'front',
                         this['ui']['el']['setAttribute']('id', 'nipple_' + this['collection']['id'] + '_' + this['id']),
                         //this['ui']['el']['appendChild'](this['ui']['back']),
-                       this['ui']['el']['appendChild'](this['ui']['front']),
+                       //this['ui']['el']['appendChild'](this['ui']['front']),
                         this);
             },
             _0x3198be['prototype']['stylize'] = function() {
@@ -5697,7 +5697,7 @@ var EJS = function(_0x494315) {
                         'marginLeft': -this['options']['size'] / 0x4 + 'px',
                         'marginTop': -this['options']['size'] / 0x4 + 'px',
                         'background': this['options']['color'],
-                        'opacity': '.5'
+                        'opacity': '0'
                     },
                     _0xfc2bf5['extend'](_0x2255d9['el'], _0x51c417),
                     _0xfc2bf5['extend'](_0x2255d9['back'], _0xb14033),

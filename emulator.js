@@ -5383,7 +5383,7 @@ var EJS = function(_0x494315) {
                 'dynamic' === this['options']['mode'] && (this['options']['restOpacity'] = 0x0),
                 this['id'] = _0x3198be['id'],
                 _0x3198be['id'] += 0x1,
-                this['buildEl']()['stylize'](),
+                //this['buildEl']()['stylize'](),
                 this['instance'] = {
                     'el': this['ui']['el'],
                     'on': this['on']['bind'](this),

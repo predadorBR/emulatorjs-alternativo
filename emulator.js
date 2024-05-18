@@ -5662,7 +5662,7 @@ var EJS = function(_0x494315) {
                         //this['ui']['back']['className'] = 'back',
                         this['ui']['front']['className'] = 'front',
                         this['ui']['el']['setAttribute']('id', 'nipple_' + this['collection']['id'] + '_' + this['id']),
-                        this['ui']['el']['appendChild'](this['ui']['back']),
+                        //this['ui']['el']['appendChild'](this['ui']['back']),
                        this['ui']['el']['appendChild'](this['ui']['front']),
                         this);
             },
@@ -5687,7 +5687,7 @@ var EJS = function(_0x494315) {
                         'marginLeft': -this['options']['size'] / 0x2 + 'px',
                         'marginTop': -this['options']['size'] / 0x2 + 'px',
                         'background': this['options']['color'],
-                        'opacity': '.5'
+                        'opacity': '0'
                     },
                     _0x2255d9['front'] = {
                         'width': this['options']['size'] / 0x2 + 'px',

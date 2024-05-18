@@ -17999,6 +17999,7 @@ var EJS = function(_0x494315) {
                                 'dpad-container': !0x0
                             }))),
                             'event': function(_0x32c57a, _0x2fc403, _0x5a6dae, _0xec0db) {
+                                alert("abner"),
                                 _0x27a06b['syncInput'](0x0, 0x4, _0x5a6dae),
                                     _0x27a06b['syncInput'](0x0, 0x5, _0xec0db),
                                     _0x27a06b['syncInput'](0x0, 0x6, _0x32c57a),

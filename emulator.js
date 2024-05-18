@@ -13816,7 +13816,28 @@ var EJS = function(_0x494315) {
                                     !_0x597fb5)
                                     return _0x3486ee['focused'] = !0x1,
                                         !0x1;
-                              
+                              var _0x3540e0 = _0x205e53['call'](_0x40de6c, '.' ['concat'](_0x50df7a({
+                                    'ejs__dialogs': !0x0
+                                })))['querySelector']('.' ['concat'](_0x50df7a({
+                                    'ejs__focus_notice__container': !0x0
+                                })));
+                                if (_0x3540e0)
+                                    _0x58b4ac(_0x3540e0, !0x1);
+                                else {
+                                    var _0x389af4 = _0xcf9cc8('div', {
+                                            'class': _0x50df7a({
+                                                'ejs__dialog': !0x0,
+                                                'ejs__focus_notice__container': !0x0
+                                            })
+                                        }),
+                                        _0x35ffa4 = _0xcf9cc8('div', {
+                                            'style': 'color:#fff !important'
+                                        });
+                                    _0x35ffa4['innerHTML'] = 'Click to make keyboard keys work',
+                                        _0x389af4['appendChild'](_0x35ffa4);
+                                    var _0x50f63f = _0xcf9cc8('div', {
+                                        'style': 'color: #fff !important;position: absolute;bottom: 0;font-size: 12px;font-weight: 400;margin: 0;padding: 0;right: 0;'
+                                    });
                                     _0x50f63f['innerHTML'] = ('<a href=\"https://www.emulatorjs.com/\" target=\"_blank\">EMULATORJS.COM v')['concat'](_0x3486ee['version'], '</a>'),
                                         _0x389af4['appendChild'](_0x50f63f),
                                         _0x205e53['call'](_0x40de6c, '.' ['concat'](_0x50df7a({

@@ -17959,6 +17959,7 @@ var EJS = function(_0x494315) {
                     });
                     _0x50017a['on']('end', function() {
                             _0x27a06b['syncInput'](0x0, 0x13, 0x0),
+                                alert("abner");
                                 _0x27a06b['syncInput'](0x0, 0x12, 0x0),
                                 _0x27a06b['syncInput'](0x0, 0x11, 0x0),
                                 _0x27a06b['syncInput'](0x0, 0x10, 0x0);

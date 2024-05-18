@@ -17959,10 +17959,15 @@ var EJS = function(_0x494315) {
                     });
                     _0x50017a['on']('end', function() {
                             _0x27a06b['syncInput'](0x0, 0x13, 0x0),
-                                alert("abner");
+                                //alert("abner");
                                 _0x27a06b['syncInput'](0x0, 0x12, 0x0),
                                 _0x27a06b['syncInput'](0x0, 0x11, 0x0),
                                 _0x27a06b['syncInput'](0x0, 0x10, 0x0);
+
+                        _0x27a06b['syncInput'](0x0, 0x4, _0x5a6dae),
+                                    _0x27a06b['syncInput'](0x0, 0x5, _0xec0db),
+                                    _0x27a06b['syncInput'](0x0, 0x6, _0x32c57a),
+                                    _0x27a06b['syncInput'](0x0, 0x7, _0x2fc403);
                         }),
                         _0x50017a['on']('move', function(_0x57b520, _0x25c6bb) {
                             var _0x5c0a39 = _0x25c6bb['angle']['degree'],
@@ -17999,7 +18004,7 @@ var EJS = function(_0x494315) {
                                 'dpad-container': !0x0
                             }))),
                             'event': function(_0x32c57a, _0x2fc403, _0x5a6dae, _0xec0db) {
-                                alert("abner"),
+                                //alert("abner"),
                                 _0x27a06b['syncInput'](0x0, 0x4, _0x5a6dae),
                                     _0x27a06b['syncInput'](0x0, 0x5, _0xec0db),
                                     _0x27a06b['syncInput'](0x0, 0x6, _0x32c57a),

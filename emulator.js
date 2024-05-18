@@ -19295,7 +19295,7 @@ var EJS = function(_0x494315) {
                                     })
                                 });
                             _0x595454['innerHTML'] = 'You can now chose a control button to adjust the size and adjust the position by dragging.<a data-btn=\"reset\" href=\"#\">Reset All</a> <a data-btn=\"close\" href=\"#\">Close</a>',
-                                _0x5efe0c['appendChild'](_0x595454),
+                             
                                 _0x166e33['exists'] || (_0x5efe0c['style']['right'] = '5px');
                             var _0x266431 = _0xcf9cc8('div', {
                                 'class': _0x50df7a({
